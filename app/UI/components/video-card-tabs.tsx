@@ -2,8 +2,9 @@
 
 import { Tabs, Tab } from "@nextui-org/react";
 import { UserProfileCard } from "./user-profile-card";
+import { VideoCard } from "./video-card";
 
-export default function UserProfileTabs() {
+export default function VideoCardTabs() {
   return (
     <div className="flex w-full flex-col">
       <Tabs
@@ -20,27 +21,22 @@ export default function UserProfileTabs() {
       >
         <Tab key="all" title="All">
           <div className="grid grid-cols-3 gap-3">
-            <UserProfileCard />
-            <UserProfileCard />
-            <UserProfileCard />
-            <UserProfileCard />
-            <UserProfileCard />
-            <UserProfileCard />
+            <VideoCard />
+            <VideoCard />
+            <VideoCard />
+            <VideoCard />
+            <VideoCard />
+            <VideoCard />
           </div>
         </Tab>
-        <Tab key="programming" title="Programming">
+        <Tab key="community" title="Community">
           <div className="grid grid-cols-3 gap-3">
-            <UserProfileCard />
-            <UserProfileCard />
-            <UserProfileCard />
-            <UserProfileCard />
+            <h1>Community</h1>
           </div>
         </Tab>
-        <Tab key="videoedit" title="Video Editing">
+        <Tab key="about" title="About">
           <div className="grid grid-cols-3 gap-3">
-            <UserProfileCard />
-            <UserProfileCard />
-            <UserProfileCard />
+            <h1>About</h1>
           </div>
         </Tab>
       </Tabs>
