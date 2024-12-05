@@ -2,10 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-/* :root {
+:root {
   --background: #ffffff;
   --foreground: #000000;
-} */
+}
 
 [data-theme="dark"] {
   --background: #000000;

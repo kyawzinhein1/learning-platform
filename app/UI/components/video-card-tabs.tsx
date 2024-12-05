@@ -1,7 +1,4 @@
-"use client";
-
 import { Tabs, Tab } from "@nextui-org/react";
-import { UserProfileCard } from "./user-profile-card";
 import { VideoCard } from "./video-card";
 
 export default function VideoCardTabs() {
